@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(287.56deg, #437DE2 0%, #16F9C1 100%);;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0%;
+    height: 100vw;
+    width: 100vw;
+    align-items: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; /* Adiciona uma borda sólida entre as células da tabela */
+    width: 80%; /* Define a largura da tabela (pode ajustar conforme necessário) */
+}
+
+th, td {
+    border: 1px solid black; /* Adiciona uma borda de 1px às células da tabela */
+    padding: 10px; /* Adiciona espaço interno nas células da tabela */
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loupe-white {
+    display: none;
+
+}
+
+.search-text {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 0;
+    padding: 0;
+    transition: 0.4s;
+}
+
+.search-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.search-box:hover > .search-text {
+    width: 320px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 16px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
